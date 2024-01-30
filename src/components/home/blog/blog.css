@@ -1,0 +1,32 @@
+.blog {
+  margin-top: 12%;
+}
+.blog .image {
+  height: 300px;
+  overflow: hidden;
+}
+.blog img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  transition: 0.5s;
+}
+.blog .box:hover img {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.blog .box {
+  background-color: #fff;
+  border-radius: 10px;
+}
+.blog span {
+  color: #ff8e28;
+}
+.blog .text {
+  padding: 50px 30px;
+}
+.blog a {
+  display: inline-block;
+  padding: 30px;
+  color: #00a850;
+}

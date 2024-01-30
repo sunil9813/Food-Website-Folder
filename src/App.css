@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #faf7f2;
+  color: #1e1d23;
+}
+.container {
+  max-width: 95%;
+  margin: auto;
+}
+.scontainer {
+  max-width: 80%;
+  margin: auto;
+}
+.paddingTB {
+  padding: 30px 0;
+}
+.pt {
+  padding-top: 80px;
+}
+.flexSB {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.utext {
+  text-transform: uppercase;
+}
+.ctext {
+  text-transform: capitalize;
+}
+li,
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+.mlr {
+  margin: 0 20px;
+}
+.mtb {
+  margin: 20px 0;
+}
+.ml {
+  margin-left: 20px;
+}
+.mr {
+  margin-left: 20px;
+}
+input {
+  width: 100%;
+  background: none;
+  border: none;
+  outline: none;
+}
+.icon {
+  width: 55px;
+  height: 55px;
+  background: #fff;
+  text-align: center;
+  line-height: 55px;
+  border-radius: 50%;
+  box-shadow: 0px 12px 8px 0px rgb(213 151 96 / 6%);
+  color: #1e1d23;
+  margin-left: 20px;
+  cursor: pointer;
+}
+button {
+  background: none;
+  border: none;
+  outline: none;
+}
+.btn2,
+.btn1 {
+  font-size: 14px;
+  padding: 16px 30px;
+  text-align: center;
+  position: relative;
+  color: #fefefe;
+  text-transform: uppercase;
+  background: #ff8e28;
+  font-weight: 700;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn2 {
+  background-color: #00a850;
+  margin-left: 20px;
+}
+p {
+  color: #8d8d8d;
+  line-height: 25px;
+}
+.flex {
+  display: flex;
+}
+.heading {
+  text-align: center;
+  padding: 30px 0;
+}
+.heading h1 {
+  font-size: 50px;
+  font-weight: 800;
+}
+.heading h3 {
+  font-family: "Satisfy", cursive;
+  font-weight: normal;
+  color: #ff8e28;
+  font-size: 25px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.row {
+  width: 50%;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+@media screen and (max-width: 768px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+  }
+  .row {
+    width: 100%;
+  }
+}
+.about {
+  height: 100vh;
+  line-height: 100vh;
+  text-align: center;
+  font-size: 50px;
+}

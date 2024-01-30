@@ -1,0 +1,22 @@
+.discount {
+  height: 60vh;
+  background-image: url("../../../../public/images/offer_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 40px 0;
+  width: 100%;
+}
+.offer::after {
+  display: none;
+}
+.discount.offer h1 span {
+  color: #fff;
+}
+@media screen and (max-width: 768px) {
+  .discount {
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+  }
+}

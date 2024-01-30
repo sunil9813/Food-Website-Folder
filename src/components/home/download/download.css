@@ -1,0 +1,30 @@
+.download .heading {
+  text-align: left;
+}
+.download {
+  margin-top: 10%;
+}
+.download .scontainer {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  height: 60vh;
+  position: relative;
+}
+.download .left img {
+  position: absolute;
+  top: -100px;
+  left: 50px;
+  height: 72.5vh;
+}
+.download .images img {
+  margin-right: 20px;
+}
+@media screen and (max-width: 768px) {
+  .download .scontainer {
+    height: auto;
+  }
+  .download .left {
+    display: none;
+  }
+}

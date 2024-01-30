@@ -1,0 +1,42 @@
+.menu {
+  margin-top: 5%;
+}
+.menu .box {
+  background: #fff;
+  border-right: 1px solid #f2f2f2;
+  padding: 40px 30px;
+  padding-bottom: 30px;
+  position: relative;
+  z-index: 1;
+  transition: 0.3s;
+}
+.menu i {
+  font-size: 50px;
+  color: #ff8e28;
+}
+.menu .box h1 {
+  font-size: 50px;
+  opacity: 0.2;
+  color: #fff;
+}
+.menu h3 {
+  margin: 20px 0;
+}
+.menu p {
+  font-size: 18px;
+  line-height: 30px;
+}
+.menu img {
+  width: auto;
+  height: auto;
+  margin-top: 40px;
+}
+.menu .box:hover {
+  background-color: #ff8e28;
+  cursor: pointer;
+}
+.menu .box:hover p,
+.menu .box:hover h3,
+.menu .box:hover i {
+  color: #fff;
+}

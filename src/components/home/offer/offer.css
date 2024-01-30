@@ -1,0 +1,49 @@
+.offer {
+  margin-top: 7%;
+  position: relative;
+}
+.offer .heading {
+  text-align: left;
+}
+.offer .heading h1 {
+  line-height: 60px;
+}
+.offer .button {
+  margin: 30px 0;
+}
+.offer .btn2 {
+  margin: 0;
+  margin-right: 40px;
+}
+.offer .button h1 {
+  font-size: 35px;
+  color: #ff8e28;
+}
+.offer .button h1 span {
+  font-size: 20px;
+  color: #fff;
+}
+.offer img {
+  margin: 50px 50px 0 50px;
+}
+.offer::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 80vh;
+  background-color: #fff;
+  z-index: -1;
+  border-radius: 10px;
+}
+@media screen and (max-width: 768px) {
+  .offer .scontainer {
+    flex-direction: column;
+  }
+  .offer img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+}

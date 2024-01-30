@@ -1,0 +1,84 @@
+.customer {
+  margin-top: 8%;
+  position: relative;
+  color: #fff;
+  padding: 50px 0;
+}
+.customer .heading {
+  text-align: left;
+}
+.customer .heading h1 {
+  font-size: 40px;
+}
+.customer::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 80vh;
+  background-color: #000;
+  z-index: -1;
+  border-radius: 10px;
+}
+.customer p {
+  color: #fff;
+  opacity: 0.7;
+  margin: 20px 0;
+  line-height: 30px;
+}
+.leftContent h1 {
+  font-size: 50px;
+  color: #ff8e28;
+  margin-top: 50px;
+}
+.customer .right {
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 80px;
+}
+.customer .items {
+  background-color: #fff;
+  color: #000;
+  padding: 50px 40px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+.customer .items p {
+  color: #000;
+}
+.customer .img i {
+  font-size: 50px;
+  color: #ff8e28;
+}
+
+.customer .dbox label {
+  color: #00a850;
+}
+.customer .dbox span {
+  margin-top: 10px;
+  display: inline-block;
+}
+.customer .dbox i {
+  margin-right: 5px;
+  color: #ff8e28;
+}
+.customer .dbox h4 {
+  font-weight: 500;
+}
+@media screen and (max-width: 768px) {
+  .customer::after {
+    width: 100%;
+  }
+  .customer .scontainer {
+    flex-direction: column;
+  }
+  .customer .right {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  .customer .grid2 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

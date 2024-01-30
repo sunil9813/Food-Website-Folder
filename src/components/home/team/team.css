@@ -1,0 +1,45 @@
+.team {
+  margin-top: 5%;
+}
+.team .content {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.team .box {
+  background-color: #fff;
+  text-align: center;
+  border-radius: 10px;
+}
+.team .img {
+  padding: 30px;
+}
+.team span {
+  color: #ff8e28;
+}
+.team .socialIcon {
+  margin-top: 30px;
+}
+.team label {
+  font-size: 14px;
+  height: 40px;
+  width: 40px;
+  color: #706c61;
+  background: #f7f6f3;
+  display: inline-block;
+  margin: 0 4px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 10px 10px 0 0;
+  transition: 0.5s;
+}
+.team label:hover {
+  background-color: #ff8e28;
+  color: #fff;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .team img {
+    width: 100%;
+    height: 100%;
+  }
+}
